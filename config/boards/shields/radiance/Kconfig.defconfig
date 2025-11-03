@@ -10,7 +10,7 @@ config I2C
 
 config SSD1306
     default y
-    
+
 endif # ZMK_DISPLAY
 
 if LVGL
@@ -30,7 +30,4 @@ endchoice
 
 endif # LVGL
 
-config ZMK_DISPLAY
-    select LV_USE_LABEL
-    select LV_USE_IMG
 endif
